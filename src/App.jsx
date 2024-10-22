@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { About, Blog, Contact, Cs, Home, Services } from './pages/routes/Route';
 import Layout from './pages/Layout/Layout';
@@ -7,31 +7,31 @@ const App = () => {
     const router = createBrowserRouter([
       {
         path: "/",
-        element: <Layout />,
+        element: <Suspense fallback={""}><Layout /></Suspense>,
         children: [
           {
             index: true,
-            element: <Home />
+            element: <Suspense fallback={""}><Home /></Suspense>
           },
           {
             path: "cs",
-            element: <Cs />
+            element: <Suspense fallback={""}><Cs /></Suspense>
           },
           {
             path: "about",
-            element: <About />
+            element: <Suspense fallback={""}><About /></Suspense>
           },
           {
             path: "blog",
-            element: <Blog />
+            element: <Suspense fallback={""}><Blog /></Suspense>
           },
           {
             path: "services",
-            element: <Services />
+            element: <Suspense fallback={""}><Services /></Suspense>
           },
           {
             path: "contacts",
-            element: <Contact />
+            element: <Suspense fallback={""}><Contact /></Suspense>
           }
         ]
       }
