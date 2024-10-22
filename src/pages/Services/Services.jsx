@@ -131,10 +131,12 @@ const Services = () => {
         <img className='w' src="/src/assets/images/case-card.png" alt="" />
       </div>
     </div>
-    <div className="flex">
-      <h1>Explore more case studies</h1>
+    <div className="flex w-3/6 m-auto">
+      <h1 className='font-[Montserrat] text-3xl font-semibold'>Explore more case studies</h1>
       <button className='btnLearnbg'>View all case studies</button>
-      
+    </div>
+    <div className="w-11/12 m-auto mt-20">
+    <img src="/src/assets/images/Clients.png" alt="" />
     </div>
     </section>
   )
