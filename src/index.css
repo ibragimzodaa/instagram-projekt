@@ -2,3 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.sec1{
+    background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%); 
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.img1{
+    width: 90px;
+    margin: auto;
+    margin-top: 20px;
+}
+.sec1div1{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cl{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
