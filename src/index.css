@@ -2,3 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.sec1{
+    background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%); 
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.img1{
+    width: 90px;
+    margin: auto;
+    margin-top: 20px;
+}
+.sec1div1{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cl{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnLearn{
+    border: 1px solid #7772F1;
+    color: #7772F1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btnLearnbg{
+    background-color: #7772F1;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+.sec2{
+    background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%); 
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.inp{
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    background-color: gray;
+}
+.sec3{
+    margin-top: 50px ;
+    text-align: center;
+}
+.card1{
+    width: 200px;
+    text-align: center;
+}
+.w{
+    width: 450px;
+    margin-top: 40px;
+}
