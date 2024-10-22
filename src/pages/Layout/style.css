@@ -1,0 +1,27 @@
+.aHeader{
+    width: 100%;
+    align-items: center;
+    color: lightgray;
+    background-color: #1F212F;
+    padding: 20px 0px ;
+    justify-content: space-between;
+}
+.aHeader nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aHeader div{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.human{
+    background-color: #7772F1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
