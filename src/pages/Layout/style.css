@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     color: lightgray;
-    background-color: #1F212F;
+    background: radial-gradient(83.15% 154.4% at 10% 13.52%, #1E212C 0%, #232441 56.38%, #1E212C 100%);
     padding: 20px 0px ;
     justify-content: space-between;
 }
